@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    overflow-y: hidden;
+
+}
+
+.outer {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+/* 화면에서 스크롤바 안보이게 */
+.outer::-webkit-scrollbar {
+    display: none;
+}
+
+.inner {
+    height: 100vh;
+    display: flex;
+    font-size: 100px;
+}
+.divider{
+    height: 100vh;
+}
+.mainPage {
+    background-color: #f7f6cf;
+    background-image: url('../image/background.PNG');
+    background-repeat: no-repeat;
+    background-position: top center;
+    block-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+
+}
+.scrollM{
+    align-self: flex-end;
+    height: 100%;
+}
